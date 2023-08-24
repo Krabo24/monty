@@ -2,7 +2,7 @@
 
 /**
  * f_pall - prints stack
- * @head: the stack head
+ * @head: stack head
  * @counter: non used
  * Return: return nothing
 */
