@@ -56,7 +56,7 @@ char **strtow(char *str, char *delims)
 		str = get_next_word(str, delims);
 		i++;
 	}
-	words[i] = NULL; 
+	words[i] = NULL;
 	return (words);
 }
 

@@ -1,6 +1,8 @@
 #include "monty.h"
 #include <string.h>
+#include <stdio.h>
 
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 void free_tokens(void);
 unsigned int token_arr_len(void);
 void (*get_op_func(char *opcode))(stack_t**, unsigned int);

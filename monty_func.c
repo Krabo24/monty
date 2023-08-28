@@ -44,7 +44,7 @@ void monty_push(stack_t **stack, unsigned int line_number)
 	new->n = atoi(op_toks[1]);
 
 	/* the stack mode insert at the front */
-	if (check_mode(*stack) == STACK) 
+	if (check_mode(*stack) == STACK)
 	{
 		tmp = (*stack)->next;
 		new->prev = *stack;
@@ -54,7 +54,7 @@ void monty_push(stack_t **stack, unsigned int line_number)
 		(*stack)->next = new;
 	}
 	/* the queue mode insert at the end */
-	else 
+	else
 	{
 		tmp = *stack;
 		while (tmp->next)

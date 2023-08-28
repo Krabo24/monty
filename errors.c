@@ -44,7 +44,7 @@ int f_open_error(char *filename)
 /**
  * unknown_op_error - print unknown instruction of error messages
  * @opcode: opcode where the error occurred
- * @line_number: line number in Monty bytecodes file where 
+ * @line_number: line number in Monty bytecodes file where
  * the error occured
  * Return: (EXIT_FAILURE) always
  */

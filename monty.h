@@ -77,5 +77,6 @@ int div_error(unsigned int line_number);
 int pint_error(unsigned int line_number);
 int short_stack_error(unsigned int line_number, char *op);
 int pchar_error(unsigned int line_number, char *message);
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 
 #endif /* __MONTY_H__ */

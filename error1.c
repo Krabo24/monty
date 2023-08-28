@@ -64,7 +64,7 @@ int div_error(unsigned int line_number)
 /**
  * pchar_error - print the pchar error message for the empty stacks
  * and the non-character values
- * @line_number: the line number in Monty bytecodes file where the error occurred
+ * @line_number: the line number in Monty bytecodes file where error occurred
  * @message: corresponding error message to print
  * Return: (EXIT_FAILURE) always
  */
